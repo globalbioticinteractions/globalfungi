@@ -1,0 +1,263 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "file:///home/jorrit/proj/globi/data-new/globalfungi/GlobalFungi_5_sample_metadata.txt.gz",
+    "dcterms:bibliographicCitation" : "Větrovský, T., Morais, D., Kohout, P., Lepinay, C., Algora, C., Awokunle Hollá, S., Bahnmann, B.D., Bílohnědá, K., Brabcová, V., D’Alò, F., Human, Z.R., Jomura, M., Kolařík, M., Kvasničková, J., Lladó, S., López-Mondéjar, R., Martinović, T., Mašínová, T., Meszárošová, L., Michalčíková, L., Michalová, T., Mundra, S., Navrátilová, D., Odriozola, I., Piché-Choquette, S., Štursová, M., Švec, K., Tláskal, V., Urbanová, M., Vlk, L., Voříšková, J., Žifčáková, L., Baldrian, P., 2020. GlobalFungi, a global database of fungal occurrences from high-throughput-sequencing metabarcoding studies. Scientific Data 7, 228. https://doi.org/10.1038/s41597-020-0567-7",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "targetTaxonName": "Fungi",
+    "null" : [ "NA" ],
+    "tableSchema" : {
+      "primaryKey": "sample_ID",
+      "columns" : [ {
+        "name" : "sample_ID",
+        "titles" : "sample_ID",
+        "datatype" : "string"
+      }, {
+        "name" : "paper_ID",
+        "titles" : "paper_ID",
+        "datatype" : "string"
+      }, {
+        "name" : "title",
+        "titles" : "paper_title",
+        "datatype" : "string"
+      }, {
+        "name" : "year",
+        "titles" : "paper_year",
+        "datatype" : "string"
+      }, {
+        "name" : "author",
+        "titles" : "paper_authors",
+        "datatype" : "string"
+      }, {
+        "name" : "journal",
+        "titles" : "paper_journal",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceDoi",
+        "titles" : "paper_doi",
+        "datatype" : "string"
+      }, {
+        "name" : "paper_sample_name",
+        "titles" : "paper_sample_name",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "elevation_study",
+        "titles" : "elevation_study",
+        "datatype" : "string"
+      }, {
+        "name" : "continent",
+        "titles" : "continent",
+        "datatype" : "string"
+      }, {
+        "name" : "country",
+        "titles" : "country",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "location",
+        "datatype" : "string"
+      }, {
+        "name" : "year_of_sampling_from",
+        "titles" : "year_of_sampling_from",
+        "datatype" : "string"
+      }, {
+        "name" : "year_of_sampling_to",
+        "titles" : "year_of_sampling_to",
+        "datatype" : "string"
+      }, {
+        "name" : "month_of_sampling",
+        "titles" : "month_of_sampling",
+        "datatype" : "string"
+      }, {
+        "name" : "day_of_sampling",
+        "titles" : "day_of_sampling",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "sample_type",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceBodyPartName",
+        "titles" : "sample_type_specification",
+        "datatype" : "string"
+      }, {
+        "name" : "environment_type",
+        "titles" : "environment_type",
+        "datatype" : "string"
+      }, {
+        "name" : "ecosystem_classification",
+        "titles" : "ecosystem_classification",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "dominant_plant_species",
+        "separator": ",",
+        "datatype" : "string"
+      }, {
+        "name" : "other_plant_species",
+        "titles" : "other_plant_species",
+        "datatype" : "string"
+      }, {
+        "name" : "manipulated",
+        "titles" : "manipulated",
+        "datatype" : "string"
+      }, {
+        "name" : "experimental_manipulation_type",
+        "titles" : "experimental_manipulation_type",
+        "datatype" : "string"
+      }, {
+        "name" : "experimental_manipulation_direction",
+        "titles" : "experimental_manipulation_direction",
+        "datatype" : "string"
+      }, {
+        "name" : "experimental_manipulation_vegetation",
+        "titles" : "experimental_manipulation_vegetation",
+        "datatype" : "string"
+      }, {
+        "name" : "experimental_manipulation_duration",
+        "titles" : "experimental_manipulation_duration",
+        "datatype" : "string"
+      }, {
+        "name" : "experimental_manipulation_frequency",
+        "titles" : "experimental_manipulation_frequency",
+        "datatype" : "string"
+      }, {
+        "name" : "experimental_manipulation_application_detail",
+        "titles" : "experimental_manipulation_application_detail",
+        "datatype" : "string"
+      }, {
+        "name" : "experimental_manipulation_intensity",
+        "titles" : "experimental_manipulation_intensity",
+        "datatype" : "string"
+      }, {
+        "name" : "pH",
+        "titles" : "pH",
+        "datatype" : "string"
+      }, {
+        "name" : "pH_method",
+        "titles" : "pH_method",
+        "datatype" : "string"
+      }, {
+        "name" : "organic_matter_content",
+        "titles" : "organic_matter_content",
+        "datatype" : "string"
+      }, {
+        "name" : "organic_C_content",
+        "titles" : "organic_C_content",
+        "datatype" : "string"
+      }, {
+        "name" : "total_N_content",
+        "titles" : "total_N_content",
+        "datatype" : "string"
+      }, {
+        "name" : "total_Ca",
+        "titles" : "total_Ca",
+        "datatype" : "string"
+      }, {
+        "name" : "total_P",
+        "titles" : "total_P",
+        "datatype" : "string"
+      }, {
+        "name" : "total_K",
+        "titles" : "total_K",
+        "datatype" : "string"
+      }, {
+        "name" : "MAT_study",
+        "titles" : "MAT_study",
+        "datatype" : "string"
+      }, {
+        "name" : "MAP_study",
+        "titles" : "MAP_study",
+        "datatype" : "string"
+      }, {
+        "name" : "area_GPS",
+        "titles" : "area_GPS",
+        "datatype" : "string"
+      }, {
+        "name" : "area_sampled",
+        "titles" : "area_sampled",
+        "datatype" : "string"
+      }, {
+        "name" : "number_of_subsamples",
+        "titles" : "number_of_subsamples",
+        "datatype" : "string"
+      }, {
+        "name" : "sampling_info",
+        "titles" : "sampling_info",
+        "datatype" : "string"
+      }, {
+        "name" : "sample_depth",
+        "titles" : "sample_depth",
+        "datatype" : "string"
+      }, {
+        "name" : "sample_info",
+        "titles" : "sample_info",
+        "datatype" : "string"
+      }, {
+        "name" : "DNA_extraction_sample_mass",
+        "titles" : "DNA_extraction_sample_mass",
+        "datatype" : "string"
+      }, {
+        "name" : "DNA_extraction_size",
+        "titles" : "DNA_extraction_size",
+        "datatype" : "string"
+      }, {
+        "name" : "DNA_extraction_method",
+        "titles" : "DNA_extraction_method",
+        "datatype" : "string"
+      }, {
+        "name" : "barcoding_region",
+        "titles" : "barcoding_region",
+        "datatype" : "string"
+      }, {
+        "name" : "PCR_primers",
+        "titles" : "PCR_primers",
+        "datatype" : "string"
+      }, {
+        "name" : "PCR_primers_sequence",
+        "titles" : "PCR_primers_sequence",
+        "datatype" : "string"
+      }, {
+        "name" : "sequencing_platform",
+        "titles" : "sequencing_platform",
+        "datatype" : "string"
+      }, {
+        "name" : "ITS1_extracted",
+        "titles" : "ITS1_extracted",
+        "datatype" : "string"
+      }, {
+        "name" : "ITS2_extracted",
+        "titles" : "ITS2_extracted",
+        "datatype" : "string"
+      }, {
+        "name" : "ITS_total",
+        "titles" : "ITS_total",
+        "datatype" : "string"
+      }, {
+        "name" : "date_added",
+        "titles" : "date_added",
+        "datatype" : "string"
+      }, {
+        "name" : "submitted_by",
+        "titles" : "submitted_by",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
