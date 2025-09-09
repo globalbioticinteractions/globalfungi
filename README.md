@@ -39,21 +39,28 @@ The data on sequence abundances of fungal taxa in samples of the GlobalFungi Dat
 
 #### Genus-level abundance tables:
 ```GlobalFungi_5_genus_abundance_ITS1.txt.gz``` - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 sequence (ed. long version at ```GlobalFungi_5_genus_abundance_ITS1.long.txt.gz```).
+
 ```GlobalFungi_5_genus_abundance_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal genera and samples based on the ITS2 sequence. (ed. long version at ```GlobalFungi_5_genus_abundance_ITS2.long.txt.gz```).
+
 ```GlobalFungi_5_genus_abundance_ITS1_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 + ITS2 sequences (ed. long version available at ```GlobalFungi_5_genus_abundance_ITS1_ITS2.long.txt.gz```).
 
 ### Species-level abundance tables:
 ```GlobalFungi_5_species_abundance_ITS1.txt.gz``` - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 sequence (ed. long version at ```GlobalFungi_5_species_abundance_ITS1.long.txt.gz```).
+
 ```GlobalFungi_5_species_abundance_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal species and samples based on the ITS2 sequence (ed. long version at ```GlobalFungi_5_species_abundance_ITS2.long.txt.gz```).
+
 ```GlobalFungi_5_species_abundance_ITS1_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 + ITS2 sequences (ed. long version at ```GlobalFungi_5_species_abundance_ITS1_ITS2.long.txt.gz```)
 
 #### Species hypothesis (SH) abundance tables (UNITE 10.0 dynamic species hypotheses):
 ```GlobalFungi_5_SH_abundance_ITS1.txt.gz``` - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 sequence (ed. long version at ```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```).
-```GlobalFungi_5_SH_abundance_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS2 sequence (ed. long version at ```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```)
+
+```GlobalFungi_5_SH_abundance_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS2 sequence (ed. long version at ```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```).
+
 ```GlobalFungi_5_SH_abundance_ITS1_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 + ITS2 sequences (ed. long version at ```GlobalFungi_5_SH_abundance_ITS1_ITS2.long.txt.gz```).
 
 #### Metadata and documentation:
 ```GlobalFungi_5_sample_metadata.txt.gz``` - Table containing sample metadata (columns) of samples (rows)
+
 ```Metadata_table_description.pdf``` - Table containing description of sample metadata fields
 
 #### Citation Guidelines
@@ -62,7 +69,8 @@ If using the downloaded data or any part of it in your publication, please cite:
 
 Větrovský, T., Morais, D., Kohout, P., Lepinay, C., Algora, C., Awokunle Hollá, S., Bahnmann, B.D., Bílohnědá, K., Brabcová, V., D’Alò, F., Human, Z.R., Jomura, M., Kolařík, M., Kvasničková, J., Lladó, S., López-Mondéjar, R., Martinović, T., Mašínová, T., Meszárošová, L., Michalčíková, L., Michalová, T., Mundra, S., Navrátilová, D., Odriozola, I., Piché-Choquette, S., Štursová, M., Švec, K., Tláskal, V., Urbanová, M., Vlk, L., Voříšková, J., Žifčáková, L., Baldrian, P., 2020. GlobalFungi, a global database of fungal occurrences from high-throughput-sequencing metabarcoding studies. Scientific Data 7, 228.
 https://doi.org/10.1038/s41597-020-0567-7
-General Rules of Sequence Processing and Construction of Fungal Taxon / Sample Tables
+
+#### General Rules of Sequence Processing and Construction of Fungal Taxon / Sample Tables
 
 Raw public sequencing datasets were processed as follows:
 
