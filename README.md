@@ -38,37 +38,37 @@ To help better understand the included Global Fungi resources, a copy of the "do
 The data on sequence abundances of fungal taxa in samples of the GlobalFungi Database, Release 5 , and the corresponding sample metadata table are available for download here:
 
 #### Genus-level abundance tables:
-```GlobalFungi_5_genus_abundance_ITS1.txt.gz``` - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 sequence (ed. long version at ```GlobalFungi_5_genus_abundance_ITS1.long.txt.gz```).
+[```GlobalFungi_5_genus_abundance_ITS1.txt.gz```](GlobalFungi_5_genus_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_5_genus_abundance_ITS1.long.txt.gz```](GlobalFungi_5_genus_abundance_ITS1.longtxt.gz)).
 
-```GlobalFungi_5_genus_abundance_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal genera and samples based on the ITS2 sequence. (ed. long version at ```GlobalFungi_5_genus_abundance_ITS2.long.txt.gz```).
+[```GlobalFungi_5_genus_abundance_ITS2.txt.gz```](GlobalFungi_5_genus_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS2 sequence. (ed. long version at [```GlobalFungi_5_genus_abundance_ITS2.long.txt.gz```](GlobalFungi_5_genus_abundance_ITS2.long.txt.gz)).
 
-```GlobalFungi_5_genus_abundance_ITS1_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 + ITS2 sequences (ed. long version available at ```GlobalFungi_5_genus_abundance_ITS1_ITS2.long.txt.gz```).
+[```GlobalFungi_5_genus_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_5_genus_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 + ITS2 sequences (ed. long version available at [```GlobalFungi_5_genus_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_5_genus_abundance_ITS1_ITS2.long.txt.gz)).
 
 ### Species-level abundance tables:
-```GlobalFungi_5_species_abundance_ITS1.txt.gz``` - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 sequence (ed. long version at ```GlobalFungi_5_species_abundance_ITS1.long.txt.gz```).
+[```GlobalFungi_5_species_abundance_ITS1.txt.gz```](GlobalFungi_5_species_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_5_species_abundance_ITS1.long.txt.gz```](GlobalFungi_5_species_abundance_ITS1.long.txt.gz)).
 
-```GlobalFungi_5_species_abundance_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal species and samples based on the ITS2 sequence (ed. long version at ```GlobalFungi_5_species_abundance_ITS2.long.txt.gz```).
+[```GlobalFungi_5_species_abundance_ITS2.txt.gz```](GlobalFungi_5_species_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS2 sequence (ed. long version at [```GlobalFungi_5_species_abundance_ITS2.long.txt.gz```](GlobalFungi_5_species_abundance_ITS2.long.txt.gz)).
 
-```GlobalFungi_5_species_abundance_ITS1_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 + ITS2 sequences (ed. long version at ```GlobalFungi_5_species_abundance_ITS1_ITS2.long.txt.gz```)
+[```GlobalFungi_5_species_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_5_species_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 + ITS2 sequences (ed. long version at [```GlobalFungi_5_species_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_5_species_abundance_ITS1_ITS2.long.txt.gz))
 
 #### Species hypothesis (SH) abundance tables (UNITE 10.0 dynamic species hypotheses):
-```GlobalFungi_5_SH_abundance_ITS1.txt.gz``` - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 sequence (ed. long version at ```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```).
+[```GlobalFungi_5_SH_abundance_ITS1.txt.gz```](GlobalFungi_5_SH_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```](GlobalFungi_5_SH_abundance_ITS1.long.txt.gz)).
 
-```GlobalFungi_5_SH_abundance_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS2 sequence (ed. long version at ```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```).
+[```GlobalFungi_5_SH_abundance_ITS2.txt.gz```](GlobalFungi_5_SH_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS2 sequence (ed. long version at [```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```](GlobalFungi_5_SH_abundance_ITS1.long.txt.gz)).
 
-```GlobalFungi_5_SH_abundance_ITS1_ITS2.txt.gz``` - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 + ITS2 sequences (ed. long version at ```GlobalFungi_5_SH_abundance_ITS1_ITS2.long.txt.gz```).
+[```GlobalFungi_5_SH_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_5_SH_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 + ITS2 sequences (ed. long version at [```GlobalFungi_5_SH_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_5_SH_abundance_ITS1_ITS2.long.txt.gz)).
 
 #### Metadata and documentation:
-```GlobalFungi_5_sample_metadata.txt.gz``` - Table containing sample metadata (columns) of samples (rows)
+[```GlobalFungi_5_sample_metadata.txt.gz```](GlobalFungi_5_sample_metadata.txt.gz) - Table containing sample metadata (columns) of samples (rows)
 
-```Metadata_table_description.pdf``` - Table containing description of sample metadata fields
+[```Metadata_table_description.pdf```](Metadata_table_description.pdf) - Table containing description of sample metadata fields
 
 #### Citation Guidelines
 
 If using the downloaded data or any part of it in your publication, please cite:
 
 Větrovský, T., Morais, D., Kohout, P., Lepinay, C., Algora, C., Awokunle Hollá, S., Bahnmann, B.D., Bílohnědá, K., Brabcová, V., D’Alò, F., Human, Z.R., Jomura, M., Kolařík, M., Kvasničková, J., Lladó, S., López-Mondéjar, R., Martinović, T., Mašínová, T., Meszárošová, L., Michalčíková, L., Michalová, T., Mundra, S., Navrátilová, D., Odriozola, I., Piché-Choquette, S., Štursová, M., Švec, K., Tláskal, V., Urbanová, M., Vlk, L., Voříšková, J., Žifčáková, L., Baldrian, P., 2020. GlobalFungi, a global database of fungal occurrences from high-throughput-sequencing metabarcoding studies. Scientific Data 7, 228.
-https://doi.org/10.1038/s41597-020-0567-7
+[https://doi.org/10.1038/s41597-020-0567-7](https://doi.org/10.1038/s41597-020-0567-7).
 
 #### General Rules of Sequence Processing and Construction of Fungal Taxon / Sample Tables
 
@@ -87,8 +87,8 @@ Raw public sequencing datasets were processed as follows:
 
 #### References
 
-Abarenkov, K., Zirk, A., Piirmann, T., Pöhönen, R., Ivanov, F., Nilsson, R. H., Kõljalg, U., 2025. UNITE general FASTA release for eukaryotes. Version 19.02.2025. UNITE Community. https://doi.org/10.15156/BIO/3301231
+Abarenkov, K., Zirk, A., Piirmann, T., Pöhönen, R., Ivanov, F., Nilsson, R. H., Kõljalg, U., 2025. UNITE general FASTA release for eukaryotes. Version 19.02.2025. UNITE Community. [https://doi.org/10.15156/BIO/3301231](https://doi.org/10.15156/BIO/3301231).
 
-Bengtsson-Palme, J., Ryberg, M., Hartmann, M., Branco, S., Wang, Z., Godhe, A., De Wit, P., Sánchez-García, M., Ebersberger, I., de Sousa, F., Amend, A.S., Jumpponen, A., Unterseher, M., Kristiansson, E., Abarenkov, K., Bertrand, Y.J.K., Sanli, K., Eriksson, K.M., Vik, U., Veldre, V., Nilsson, R.H., 2013. Improved software detection and extraction of ITS1 and ITS2 from ribosomal ITS sequences of fungi and other eukaryotes for analysis of environmental sequencing data. Methods in Ecology and Evolution 4, 914-919. https://doi.org/10.1111/2041-210x.12073
+Bengtsson-Palme, J., Ryberg, M., Hartmann, M., Branco, S., Wang, Z., Godhe, A., De Wit, P., Sánchez-García, M., Ebersberger, I., de Sousa, F., Amend, A.S., Jumpponen, A., Unterseher, M., Kristiansson, E., Abarenkov, K., Bertrand, Y.J.K., Sanli, K., Eriksson, K.M., Vik, U., Veldre, V., Nilsson, R.H., 2013. Improved software detection and extraction of ITS1 and ITS2 from ribosomal ITS sequences of fungi and other eukaryotes for analysis of environmental sequencing data. Methods in Ecology and Evolution 4, 914-919. [https://doi.org/10.1111/2041-210x.12073](https://doi.org/10.1111/2041-210x.12073).
 
  
