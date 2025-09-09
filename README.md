@@ -44,7 +44,7 @@ The data on sequence abundances of fungal taxa in samples of the GlobalFungi Dat
 
 [```GlobalFungi_5_genus_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_5_genus_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 + ITS2 sequences (ed. long version available at [```GlobalFungi_5_genus_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_5_genus_abundance_ITS1_ITS2.long.txt.gz)).
 
-### Species-level abundance tables:
+#### Species-level abundance tables:
 [```GlobalFungi_5_species_abundance_ITS1.txt.gz```](GlobalFungi_5_species_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_5_species_abundance_ITS1.long.txt.gz```](GlobalFungi_5_species_abundance_ITS1.long.txt.gz)).
 
 [```GlobalFungi_5_species_abundance_ITS2.txt.gz```](GlobalFungi_5_species_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS2 sequence (ed. long version at [```GlobalFungi_5_species_abundance_ITS2.long.txt.gz```](GlobalFungi_5_species_abundance_ITS2.long.txt.gz)).
