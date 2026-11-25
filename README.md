@@ -8,7 +8,7 @@ Větrovský, T., Morais, D., Kohout, P., Lepinay, C., Algora, C., Awokunle Holl�
 
 In order to facilitate indexing of plant-fungi associations, Global Fungi v5 data files were manually downloaded from https://globalfungi.com on 2025-09-04 and copies were deposited independently here. The reason for making this copy is that https://globalfungi.com did not provide a method to automatically access the resources: for some reason, the Global Fungi website supports only manual downloads at time of writing. By providing these copies the resources can be reused by automated workflows such as [GloBI](https://globalbioticinteractions.org) indexing and data review. 
 
-In addition, the provided tables were rotated from the wide format (with ~20k columns) to a long format using the bash program [```wide2long.sh```](./wide2long.sh) to help facilitate reuse: users reported issues with loading tab-separated tables like ```GlobalFungi_5_species_abundance_ITS1.txt.gz``` into R or excel due to the large amount of columns. The rotated version of associated tables can be found using by replacing the extension ```.txt.gz``` with ```.long.txt.gz```. E.g., ```GlobalFungi_5_species_abundance_ITS1.txt.gz``` has a rotated version the in the file called ```GlobalFungi_5_species_abundance_ITS1.long.txt.gz```.
+In addition, the provided tables were rotated from the wide format (with ~20k columns) to a long format using the bash program [```wide2long.sh```](./wide2long.sh) to help facilitate reuse: users reported issues with loading tab-separated tables like ```GlobalFungi_6_species_abundance_ITS1.txt.gz``` into R or excel due to the large amount of columns. The rotated version of associated tables can be found using by replacing the extension ```.txt.gz``` with ```.long.txt.gz```. E.g., ```GlobalFungi_6_species_abundance_ITS1.txt.gz``` has a rotated version the in the file called ```GlobalFungi_6_species_abundance_ITS1.long.txt.gz```.
 
 The original table has shape:
 
@@ -38,28 +38,28 @@ To help better understand the included Global Fungi resources, a copy of the "do
 The data on sequence abundances of fungal taxa in samples of the GlobalFungi Database, Release 5 , and the corresponding sample metadata table are available for download here:
 
 #### Genus-level abundance tables:
-[```GlobalFungi_5_genus_abundance_ITS1.txt.gz```](GlobalFungi_5_genus_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_5_genus_abundance_ITS1.long.txt.gz```](GlobalFungi_5_genus_abundance_ITS1.longtxt.gz)).
+[```GlobalFungi_6_genus_abundance_ITS1.txt.gz```](GlobalFungi_6_genus_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_6_genus_abundance_ITS1.long.txt.gz```](GlobalFungi_6_genus_abundance_ITS1.longtxt.gz)).
 
-[```GlobalFungi_5_genus_abundance_ITS2.txt.gz```](GlobalFungi_5_genus_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS2 sequence. (ed. long version at [```GlobalFungi_5_genus_abundance_ITS2.long.txt.gz```](GlobalFungi_5_genus_abundance_ITS2.long.txt.gz)).
+[```GlobalFungi_6_genus_abundance_ITS2.txt.gz```](GlobalFungi_6_genus_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS2 sequence. (ed. long version at [```GlobalFungi_6_genus_abundance_ITS2.long.txt.gz```](GlobalFungi_6_genus_abundance_ITS2.long.txt.gz)).
 
-[```GlobalFungi_5_genus_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_5_genus_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 + ITS2 sequences (ed. long version available at [```GlobalFungi_5_genus_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_5_genus_abundance_ITS1_ITS2.long.txt.gz)).
+[```GlobalFungi_6_genus_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_6_genus_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 + ITS2 sequences (ed. long version available at [```GlobalFungi_6_genus_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_6_genus_abundance_ITS1_ITS2.long.txt.gz)).
 
 #### Species-level abundance tables:
-[```GlobalFungi_5_species_abundance_ITS1.txt.gz```](GlobalFungi_5_species_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_5_species_abundance_ITS1.long.txt.gz```](GlobalFungi_5_species_abundance_ITS1.long.txt.gz)).
+[```GlobalFungi_6_species_abundance_ITS1.txt.gz```](GlobalFungi_6_species_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_6_species_abundance_ITS1.long.txt.gz```](GlobalFungi_6_species_abundance_ITS1.long.txt.gz)).
 
-[```GlobalFungi_5_species_abundance_ITS2.txt.gz```](GlobalFungi_5_species_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS2 sequence (ed. long version at [```GlobalFungi_5_species_abundance_ITS2.long.txt.gz```](GlobalFungi_5_species_abundance_ITS2.long.txt.gz)).
+[```GlobalFungi_6_species_abundance_ITS2.txt.gz```](GlobalFungi_6_species_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS2 sequence (ed. long version at [```GlobalFungi_6_species_abundance_ITS2.long.txt.gz```](GlobalFungi_6_species_abundance_ITS2.long.txt.gz)).
 
-[```GlobalFungi_5_species_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_5_species_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 + ITS2 sequences (ed. long version at [```GlobalFungi_5_species_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_5_species_abundance_ITS1_ITS2.long.txt.gz))
+[```GlobalFungi_6_species_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_6_species_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal species and samples based on the ITS1 + ITS2 sequences (ed. long version at [```GlobalFungi_6_species_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_6_species_abundance_ITS1_ITS2.long.txt.gz))
 
 #### Species hypothesis (SH) abundance tables (UNITE 10.0 dynamic species hypotheses):
-[```GlobalFungi_5_SH_abundance_ITS1.txt.gz```](GlobalFungi_5_SH_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```](GlobalFungi_5_SH_abundance_ITS1.long.txt.gz)).
+[```GlobalFungi_6_SH_abundance_ITS1.txt.gz```](GlobalFungi_6_SH_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_6_SH_abundance_ITS1.long.txt.gz```](GlobalFungi_6_SH_abundance_ITS1.long.txt.gz)).
 
-[```GlobalFungi_5_SH_abundance_ITS2.txt.gz```](GlobalFungi_5_SH_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS2 sequence (ed. long version at [```GlobalFungi_5_SH_abundance_ITS1.long.txt.gz```](GlobalFungi_5_SH_abundance_ITS1.long.txt.gz)).
+[```GlobalFungi_6_SH_abundance_ITS2.txt.gz```](GlobalFungi_6_SH_abundance_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS2 sequence (ed. long version at [```GlobalFungi_6_SH_abundance_ITS1.long.txt.gz```](GlobalFungi_6_SH_abundance_ITS1.long.txt.gz)).
 
-[```GlobalFungi_5_SH_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_5_SH_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 + ITS2 sequences (ed. long version at [```GlobalFungi_5_SH_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_5_SH_abundance_ITS1_ITS2.long.txt.gz)).
+[```GlobalFungi_6_SH_abundance_ITS1_ITS2.txt.gz```](GlobalFungi_6_SH_abundance_ITS1_ITS2.txt.gz) - Compressed table containing sequences assigned to fungal UNITE 10.0 dynamic species hypotheses and samples based on the ITS1 + ITS2 sequences (ed. long version at [```GlobalFungi_6_SH_abundance_ITS1_ITS2.long.txt.gz```](GlobalFungi_6_SH_abundance_ITS1_ITS2.long.txt.gz)).
 
 #### Metadata and documentation:
-[```GlobalFungi_5_sample_metadata.txt.gz```](GlobalFungi_5_sample_metadata.txt.gz) - Table containing sample metadata (columns) of samples (rows)
+[```GlobalFungi_6_sample_metadata.txt.gz```](GlobalFungi_6_sample_metadata.txt.gz) - Table containing sample metadata (columns) of samples (rows)
 
 [```Metadata_table_description.pdf```](Metadata_table_description.pdf) - Table containing description of sample metadata fields
 
