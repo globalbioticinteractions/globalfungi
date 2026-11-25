@@ -7,7 +7,7 @@
 set -x
 
 rotate_tables() {
-  local filenameroot=GlobalFungi_5_${1}_abundance
+  local filenameroot=GlobalFungi_6_${1}_abundance
   bash wide2long.sh ${filenameroot}_ITS1_ITS2.txt.gz 1>${filenameroot}_ITS1_ITS2.long.txt 2>${filenameroot}_ITS1_ITS2.long.log
   bash wide2long.sh ${filenameroot}_ITS1.txt.gz 1>${filenameroot}_ITS1.long.txt 2>${filenameroot}_ITS1.long.log
   bash wide2long.sh ${filenameroot}_ITS2.txt.gz 1>${filenameroot}_ITS2.long.txt 2>${filenameroot}_ITS2.long.log
