@@ -14,28 +14,28 @@ The original table has shape:
 
 | sample_ID | Apiospora esporlensis | Spizellomyces punctatus | ... | Penicillium sublateritium | Atla wheldonii | all_other_fungal_sequences |
 | --- | --- | --- | --- | --- | --- | --- |
-| GF05000787S | 0 | 0 | ... | 0 | 0 | 1752 |
-| GF04002266S | 0 | 0 | ... | 0 | 0 | 95044 |
+| GF01000103S | 0 | 0 | ... | 0 | 0 | 40314 |
+| GF01000104S | 0 | 0 | ... | 0 | 0 | 184022 |
 | ... | ... | ... | ... | ... | ... | ... |
-| GF02003794S | 0 | 0 | ... | 0 | 0 | 17 |
-| GF04002823S | 0 | 0 | ... | 0 | 0 | 439 |
+| GF06040112S | 0 | 0 | ... | 0 | 0 | 2516 |
+| GF06040113S | 0 | 0 | ... | 0 | 0 | 5891 |
 
-with 19181 columns, whereas the rotated tables have the following structure:
+with 17482 columns, whereas the rotated tables have the following structure:
 
 | sample_ID | item | value |
 | --- | --- | --- |
-| GF05000787S | Leotiomycetes sp. | 1 |
-| GF05000787S | Cortinarius vernus | 20 |
+| GF01000103S | Alternaria armoraciae | 2 |
+| GF01000103S | Alternaria breviramosa | 145 |
 | ... | ... | ... |
-| GF02003794S | all_other_fungal_sequences | 17 |
-| GF04002823S | all_other_fungal_sequences | 439 |
+| GF06040112S | all_other_fungal_sequences | 2516 |
+| GF06040113S | all_other_fungal_sequences | 5891 |
 
 Note that all sample_ID species combinations with "0" have been excluded in this rotated table.
 
-To help better understand the included Global Fungi resources, a copy of the "download" page of https://globalfungi.com is transcribed below from a 2025-09-09 version:
+To help better understand the included Global Fungi resources, a copy of the "download" page of https://globalfungi.com is transcribed below from a 2026-11-25 version:
 
 ### Download of GlobalFungi taxon observation data
-The data on sequence abundances of fungal taxa in samples of the GlobalFungi Database, Release 5 , and the corresponding sample metadata table are available for download here:
+The data on sequence abundances of fungal taxa in samples of the GlobalFungi Database, Release 6 , and the corresponding sample metadata table are available for download here:
 
 #### Genus-level abundance tables:
 [```GlobalFungi_6_genus_abundance_ITS1.txt.gz```](GlobalFungi_6_genus_abundance_ITS1.txt.gz) - Compressed table containing sequences assigned to fungal genera and samples based on the ITS1 sequence (ed. long version at [```GlobalFungi_6_genus_abundance_ITS1.long.txt.gz```](GlobalFungi_6_genus_abundance_ITS1.longtxt.gz)).
